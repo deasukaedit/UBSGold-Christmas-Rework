@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/email.css" />
+    <link rel="stylesheet" href="asset/js/email.js" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("e2aMytQct3Q7g7B-p");
+      })();
+    </script>
+    <script src="asset/js/email.js"></script>
+  </head>
+  <body>
+    <section id="customize-gold" data-aos="fade-up">
+      <h2 class="section-title">Customize Goldmu Disini!</h2>
+      <div class="customize-table-container">
+        <p class="description">Masukkan informasi tambahan tentang goldmu di bawah ini</p>
+        <form id="customize-form" onsubmit="sendMail(event)">
+          <label for="name-input">Nama:</label>
+          <input type="text" id="name-input" name="to_name" placeholder="Masukkan Nama" class="input-field" required />
+
+          <label for="phone-input">Nomor Telepon:</label>
+          <input type="tel" id="phone-input" name="phone" placeholder="Masukkan Nomor Telepon" class="input-field" required />
+
+          <label for="customize-textbox">Pesan:</label>
+          <textarea id="customize-textbox" name="message" placeholder="Type here..." rows="4" class="input-field" required></textarea>
+          <br />
+
+          <label for="email-input">Email (Reply To):</label>
+          <input type="email" id="email-input" name="reply_to" placeholder="Masukkan Email Anda" class="input-field" required />
+
+          <button type="submit" id="send-button" class="submit-button">Send!</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

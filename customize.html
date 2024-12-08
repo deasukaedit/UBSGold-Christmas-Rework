@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UBS GOLD - Trust in Gold</title>
+    <link rel="stylesheet" href="asset/css/customize.css" />
+    <link rel="stylesheet" href="asset/css/footer.css" />
+    <link rel="stylesheet" href="asset/css/contact.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="asset/image/favicon - Copy.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Marcellus&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <section>
+        <header>
+          <nav class="header">
+            <div class="logo">
+              <img src="asset/image/logo-ubs-gold.png" alt="logo UBS" />
+            </div>
+            <div class="navbar-header">
+              <div class="burger-menu" id="burgerMenu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+            <div class="navbar-header">
+              <ul id="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="showcase.html">Showcase</a></li>
+                <li><a href="recommendation.html">Recommendation</a></li>
+                <li><a href="customize.html">Customize</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+      </section>
+    </header>
+
+    <div class="image-container">
+      <img style="filter: brightness(40%)" src="asset/image/customize.jpg" alt="Gambar" />
+      <div class="text-overlay large-text">Customize Your Gold <br /></div>
+      <div class="text-overlay small-text">Sesuaikan bentuk dan warna emas sesuai dengan kepribadian Anda!</div>
+    </div>
+
+    <nav class="group">
+      <ul>
+        <li><a href="#ring">Ring</a></li>
+        <li><a href="#necklace">Necklace</a></li>
+        <li><a href="#bracelet">Bracelet</a></li>
+      </ul>
+    </nav>
+
+    <!-- Section: Ring -->
+    <section id="ring">
+      <h2 style="text-align: center; margin-top: 30px">Customize Your Ring</h2>
+      <div class="customize-container">
+        <div class="customize-options">
+          <h3>Pilih Warna Cincin</h3>
+          <div class="form-group">
+            <label><input type="radio" name="color-ring" value="Gold" /> Gold</label>
+            <label><input type="radio" name="color-ring" value="Putih" /> Putih</label>
+            <label><input type="radio" name="color-ring" value="Rose Gold" /> Rose Gold</label>
+          </div>
+          <button id="apply-ring">Terapkan Pilihan</button>
+        </div>
+
+        <div class="preview-section">
+          <h3>Preview Cincin</h3>
+          <div id="preview-ring-box">
+            <img id="preview-ring-image" src="asset/image/cincin-gold.png" alt="Preview Ring" class="gold-preview hidden" />
+          </div>
+          <div id="preview-ring-box">
+            <img src="asset/image/cincin-putih.png" alt="Preview Ring" class="gold-preview hidden" />
+          </div>
+          <div id="preview-ring-box">
+            <img src="asset/image/cincin-rosegold.png" alt="Preview Ring" class="gold-preview hidden" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Necklace -->
+    <section id="necklace">
+      <h2 style="text-align: center">Customize Your Necklace</h2>
+      <div class="customize-container">
+        <div class="customize-options">
+          <h3>Pilih Warna Kalung</h3>
+          <div class="form-group">
+            <label><input type="radio" name="color-necklace" value="Gold" /> Gold</label>
+            <label><input type="radio" name="color-necklace" value="Putih" /> Putih</label>
+            <label><input type="radio" name="color-necklace" value="Rose Gold" /> Rose Gold</label>
+          </div>
+          <button id="apply-necklace">Terapkan Pilihan</button>
+        </div>
+
+        <div class="preview-section">
+          <h3>Preview Kalung</h3>
+          <div id="preview-necklace-box">
+            <img id="preview-necklace-image" src="asset/image/kalung-gold.png" alt="Preview Necklace" class="gold-preview hidden" />
+          </div>
+          <div id="preview-necklace-box">
+            <img id="preview-necklace-image" src="asset/image/kalung-putih.png" alt="Preview Necklace" class="gold-preview hidden" />
+          </div>
+          <div id="preview-necklace-box">
+            <img id="preview-necklace-image" src="asset/image/kalung-rosegold.png" alt="Preview Necklace" class="gold-preview hidden" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Bracelet -->
+    <section id="bracelet">
+      <h2 style="text-align: center">Customize Your Bracelet</h2>
+      <div class="customize-container">
+        <div class="customize-options">
+          <h3>Pilih Warna Gelang</h3>
+          <div class="form-group">
+            <label><input type="radio" name="color-bracelet" value="Gold" /> Gold</label>
+            <label><input type="radio" name="color-bracelet" value="Putih" /> Putih</label>
+            <label><input type="radio" name="color-bracelet" value="Rose Gold" /> Rose Gold</label>
+          </div>
+          <button id="apply-bracelet">Terapkan Pilihan</button>
+        </div>
+
+        <div class="preview-section">
+          <h3>Preview Gelang</h3>
+          <div id="preview-bracelet-box">
+            <img id="preview-bracelet-image" src="asset/image/gelang-gold.png" alt="Preview Bracelet" class="gold-preview hidden" />
+          </div>
+          <div id="preview-bracelet-box">
+            <img id="preview-bracelet-image" src="asset/image/gelang-putih.png" alt="Preview Bracelet" class="gold-preview hidden" />
+          </div>
+          <div id="preview-bracelet-box">
+            <img id="preview-bracelet-image" src="asset/image/gelang-rosegold.png" alt="Preview Bracelet" class="gold-preview hidden" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="customize-gold" data-aos="fade-up">
+      <h2 style="text-align: center">Customize Goldmu Disini!</h2>
+      <div class="customize-table-container" style="text-align: center; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 80%; margin: 20px auto">
+        <p style="font-size: 20px">Masukkan informasi tambahan tentang goldmu di bawah ini</p>
+        <form id="customize-form">
+          <textarea
+            id="customize-textbox"
+            placeholder="Type here..."
+            rows="4"
+            style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc; font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+          ></textarea>
+          <br />
+          <button
+            type="button"
+            id="send-button"
+            style="background-color: #1f4529; border: none; padding: 10px 20px; font-size: 18px; cursor: pointer; margin-top: 10px; border-radius: 5px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+          >
+            Send!
+          </button>
+        </form>
+        <p id="success-message" style="display: none; color: green; font-size: 18px">Berhasil Dikirim!</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-left">
+            <img src="https://ubsgold.com/storage/2024/03/logo-ubs-gold.png" alt="UBS Gold Logo" class="footer-logo" />
+            <p style="font-size: 28px" class="footer-email"><a href="mailto:info@ubsgold.com" class="email-link">info@ubsgold.com</a></p>
+            <p class="footer-address">
+              <img style="width: 16px; height: auto" src="asset/image/location.png" alt="" class="address-icon" style="vertical-align: middle" /> Jl. Kenjeran 395 - 399, Gading Kec. Tambaksari, Surabaya.
+            </p>
+            <p class="footer-phone"><img style="width: 16px; height: auto" src="asset/image/phone.png" alt="" class="address-icon" style="vertical-align: middle" />082230308000</p>
+            <p class="footer-email"><img style="width: 16px; height: auto" src="asset/image/mail.png" alt="" class="address-icon" style="vertical-align: middle" />info@ubsgold.com</p>
+          </div>
+          <div class="footer-right">
+            <div class="footer-links">
+              <h4 style="font-size: 30px; margin-top: 50px">UBS Gold</h4>
+              <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="showcase.html">Showcase</a></li>
+                <li><a href="recommendation.html">Recommendation</a></li>
+                <li><a href="customize.html">Customize</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-links">
+              <h4 style="font-size: 30px; margin-top: 50px">More About UBS Gold</h4>
+              <div class="social-icons">
+                <span class="circle"
+                  ><a href="https://www.facebook.com/"><img src="asset/image/facebook-logo.webp" alt="Facebook Logo" /></a
+                ></span>
+                <span class="circle"
+                  ><a href="https://www.instagram.com/ubs.gold/"><img src="asset/image/instagram-logo.webp" alt="Instagram Logo" /></a
+                ></span>
+                <span class="circle"
+                  ><a href="https://www.youtube.com/@UBSGOLDofficial"><img src="asset/image/youtube-logo.webp" alt="YouTube Logo" /></a
+                ></span>
+                <span class="circle"
+                  ><a href="https://www.tiktok.com/@ubs.gold"><img src="asset/image/tiktok-logo.png" alt="TikTok Logo" /></a
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Managed by PT. UNTUNG BERSAMA SEJAHTERA</p>
+          <hr style="height: 1px; background-color: gray; border: none; margin: 10px 0" />
+          <p>© Copyright UBSLifestyle 2014 - 2024.</p>
+        </div>
+      </footer>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="asset/customize.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="asset/js/home.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
